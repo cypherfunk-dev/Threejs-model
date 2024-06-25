@@ -6,7 +6,7 @@ import { Mesh } from "three";
 
 
 export function Model() {
-  const fileUrl = "/src/models/tester.glb";
+  const fileUrl = "/src/models/untitled.glb";
   const gltf = useLoader(GLTFLoader, fileUrl);
   const mesh = useRef<Mesh>(null!);
   useFrame(() => {

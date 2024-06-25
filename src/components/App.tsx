@@ -8,7 +8,7 @@ export const App = () => {
       <div className="app">
         Testing
       </div>
-      <Canvas className='canvas' shadows camera={{position:[0,30,1000], fov:15}}>
+      <Canvas className='canvas' shadows camera={{position:[0,30,60], fov:15}}>
       <Homescene/>
       </Canvas>
     </>
