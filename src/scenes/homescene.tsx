@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, Stars} from '@react-three/drei'
+import { Environment, OrbitControls, } from '@react-three/drei'
 import { Model } from '../models/model1'
 
 export const Homescene = () => {
@@ -12,7 +12,6 @@ export const Homescene = () => {
 		<group scale={[20, 20, 20]}>
         <Model/>
         </group>
-        <Stars/>
 </>
     )
 }
